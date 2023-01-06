@@ -1,0 +1,28 @@
+.wrapper {
+  display: grid;
+  grid-template-areas: 
+    "a ."
+    ". b"
+  ;
+
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.wrapper > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  grid-area: "a";
+
+  background-color: yellowgreen;
+}
+
+.text {
+  grid-area: text;
+
+  background-color: burlywood;
+}
