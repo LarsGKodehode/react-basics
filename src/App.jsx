@@ -4,6 +4,7 @@ import ComponentWithProps from "./components/ComponentWithProps/ComponentWithPro
 import ComponentArrayMap from "./components/ComponentArrayMap/ComponentArrayMap"
 import ComponentWithChildren from "./components/ComponentWithChildren/ComponentWithChildren"
 import StyledInline from "./components/StyledInline/StyledInline"
+import StyledGlobalCSS from "./components/StyledGlobalCSS/StyledGlobalCSS"
 
 
 // Uncomment the lines with the the components to see them in effect
@@ -26,6 +27,8 @@ function App() {
 
 
       {/* <StyledInline /> */}
+
+      {/* <StyledGlobalCSS /> */}
     </>
   )
 }
