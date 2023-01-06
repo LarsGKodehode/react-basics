@@ -3,6 +3,7 @@ import ComponentBasic from "./components/ComponentBasic/ComponentBasic"
 import ComponentWithProps from "./components/ComponentWithProps/ComponentWithProps"
 import ComponentArrayMap from "./components/ComponentArrayMap/ComponentArrayMap"
 import ComponentWithChildren from "./components/ComponentWithChildren/ComponentWithChildren"
+import StyledInline from "./components/StyledInline/StyledInline"
 
 
 // Uncomment the lines with the the components to see them in effect
@@ -22,6 +23,9 @@ function App() {
       </ComponentWithChildren> */}
 
       {/* <ComponentArrayMap /> */}
+
+
+      {/* <StyledInline /> */}
     </>
   )
 }
